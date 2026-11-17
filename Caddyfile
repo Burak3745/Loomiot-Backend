@@ -1,0 +1,4 @@
+# DOMAIN değişkeni .env dosyasından gelir. Caddy HTTPS sertifikasını otomatik alır.
+{$DOMAIN} {
+	reverse_proxy app:3000
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ev-otomasyonu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "mongoose": "^8.8.0",
+    "mqtt": "^5.10.0"
+  }
+}
