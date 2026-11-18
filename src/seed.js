@@ -16,14 +16,14 @@ if (legacy.length > 0) {
 }
 
 const room = await Room.findOneAndUpdate(
-  { slug: 'salon' },
-  { $setOnInsert: { name: 'Salon', slug: 'salon' } },
+  { slug: 'burak-oda' },
+  { $setOnInsert: { name: 'Burak-Oda', slug: 'burak-oda' } },
   { upsert: true, new: true }
 );
 
 const defaults = [
-  { name: 'Salon Işık', type: 'light' },
-  { name: 'Salon Perde', type: 'curtain' },
+  { name: 'Burak-Oda-Tavan-Işık', type: 'light' },
+  { name: 'Burak-Oda-Stor-Perde', type: 'curtain' },
   { name: 'Projeksiyon', type: 'projector' },
 ];
 
