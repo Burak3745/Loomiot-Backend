@@ -7,7 +7,7 @@ let client;
 
 export function connectMqtt() {
   client = mqtt.connect(config.mqttUrl, {
-    clientId: 'ev-otomasyonu-backend',
+    clientId: 'loomiot-backend',
     username: config.mqttUsername,
     password: config.mqttPassword,
     reconnectPeriod: 2000,

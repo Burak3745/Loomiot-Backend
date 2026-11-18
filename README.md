@@ -15,7 +15,7 @@ npm run dev
 ## Sunucuya kurulum
 
 1. Sunucuda Docker ve Docker Compose kurulu olmalı. Domain'in A kaydı sunucunun IP'sine bakmalı.
-2. Repoyu çek: `git clone <repo-url> && cd ev-otomasyonu`
+2. Repoyu çek: `git clone <repo-url> && cd loomiot-backend`
 3. `.env` oluştur: `cp .env.example .env` ve sunucu bölümündeki değerleri doldur.
 4. MQTT kullanıcılarını oluştur (backend ve ESP32 için ayrı):
    ```bash

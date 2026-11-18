@@ -7,7 +7,7 @@ services:
       NODE_ENV: production
       PORT: 3000
       API_KEY: ${API_KEY:?API_KEY .env içinde tanımlı olmalı}
-      MONGO_URI: mongodb://${MONGO_ROOT_USER:?}:${MONGO_ROOT_PASSWORD:?}@mongo:27017/ev-otomasyonu?authSource=admin
+      MONGO_URI: mongodb://${MONGO_ROOT_USER:?}:${MONGO_ROOT_PASSWORD:?}@mongo:27017/loomiot?authSource=admin
       MQTT_URL: mqtt://mosquitto:1883
       MQTT_USERNAME: ${MQTT_BACKEND_USER:-backend}
       MQTT_PASSWORD: ${MQTT_BACKEND_PASSWORD:?MQTT_BACKEND_PASSWORD .env içinde tanımlı olmalı}
